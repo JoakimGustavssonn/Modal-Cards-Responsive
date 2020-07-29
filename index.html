@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <title>Responsive Cards and Modal viewer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./CSS/styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        
+    
+</head>
+<body>
+    
+        <header>
+        
+           
+           
+        </header>
+
+        <!-- modal section-->
+        <div id="Modal" class="modal">
+            <div id ="modal-container">
+              <div id="modal-desc" >
+              </div>
+            </div>
+        </div>
+
+
+          <section class="main-container">
+            <div id="main-content-items">
+                <h1>Responsive Cards and Modal viewer</h1>
+                <hr>
+                <ul class="cards">
+                  <li class="cards-item">
+                    <div class="card" id="Card">
+                      <div class="JS-img-click">
+                        
+                                <picture class="card-images" id= "card-test">
+                                    <source media="(min-width: 900px)"  srcset ="./img/IMG_0413_500.JPG" alt="field" style="max-width: 300px; object-fit:cover">
+                                    <img src="./img/IMG_0413_500.JPG" alt="field"style="width:100%; max-width:900px; object-fit:cover">
+                                                                
+                                </picture>
+                      </div>
+                    
+                      <div class ="modal-content"id = "modal-cont"  >
+                        <img src="./img/IMG_0413.JPG" alt="field"style="width:100%;">
+                        <div class="text-block">
+                        <h1> Sun shining</h1>
+                        <p>Modal detailed desc about the picture, this will only be visible inside the modal</p>
+                      </div>
+                        </div>
+                        
+                   
+                         
+                      <div class="card-content">
+                        <div class="card-title">Sun shining</div>
+                        <p class="card-text">short Card desc</p>
+                        
+                        <hr>
+                      </div>
+                    
+                  </li>
+
+                  <li class="cards-item">
+                    <div class="card" id="Card">
+                      <div class="JS-img-click">
+
+                        <picture class="card-images" id= "card-test">
+                            <source media="(min-width: 300px)"  srcset ="./img/IMG_0412_500.jpg" alt="sea" style="max-width: 300px; object-fit:cover">
+                            <img src="./img/IMG_0412_500.JPG" alt="sea"style="width:100%; max-width:900px; object-fit:cover">
+                          
+                      </picture>
+                      </div>
+                    
+                      <div class ="modal-content"id = "modal-cont"  >
+                        <img src="./img/IMG_0412.JPG" alt="sea"style="width:100%;">  
+                        <div class="text-block">
+                          <h1> Boats Sea</h1>
+                          <p>Modal detailed desc about the picture, this will only be visible inside the modal
+                            This is related to this picture.
+                             </p>
+                        </div>
+                        </div>
+                        
+                      <div class="card-content">
+                        <div class="card-title">Boats Sea</div>
+                        <p class="card-text">Short desc about Boats Sea
+                        </p>
+                        <hr>
+                      </div>
+                    
+
+                  </li>
+
+
+                  <li class="cards-item">
+                    <div class="card" id="Card">
+                      <div class="JS-img-click">
+                        
+                                <picture class="card-images" id= "card-test">
+                                    <source media="(min-width: 900px)"  srcset ="./img/IMG_0413_500_grey.JPG" alt="field" style="max-width: 300px; object-fit:cover">
+                                    <img src="./img/IMG_0413_500_grey.JPG" alt="field"style="width:100%; max-width:900px; object-fit:cover">
+                                                                
+                                </picture>
+                      </div>
+                    
+                      <div class ="modal-content"id = "modal-cont"  >
+                        <img src="./img/IMG_0413_grey.JPG" alt="field"style="width:100%;">
+                        <div class="text-block">
+                        <h1> Sun shining Grey</h1>
+                        <p>Modal detailed desc about the picture, this will only be visible inside the modal</p>
+                      </div>
+                        </div>
+                        
+                   
+                         
+                      <div class="card-content">
+                        <div class="card-title">Sun shining Grey</div>
+                        <p class="card-text">short Card desc</p>
+                        
+                        <hr>
+                      </div>
+                    
+                  </li>
+
+                  <li class="cards-item">
+                    <div class="card" id="Card">
+                      <div class="JS-img-click">
+
+                        <picture class="card-images" id= "card-test">
+                            <source media="(min-width: 300px)"  srcset ="./img/IMG_0412_500_grey.jpg" alt="sea" style="max-width: 300px; object-fit:cover">
+                            <img src="./img/IMG_0412_500_grey.JPG" alt="sea"style="width:100%; max-width:900px; object-fit:cover">
+                          
+                      </picture>
+                      </div>
+                    
+                      <div class ="modal-content"id = "modal-cont"  >
+                        <img src="./img/IMG_0412_grey.JPG" alt="sea"style="width:100%;">  
+                        <div class="text-block">
+                          <h1> Boats Sea Grey</h1>
+                          <p>Modal detailed desc about the picture, this will only be visible inside the modal
+                            This is related to this picture.
+                             </p>
+                        </div>
+                        </div>
+                        
+                      <div class="card-content">
+                        <div class="card-title">Boats Sea Grey</div>
+                        <p class="card-text">Short desc about Boats Sea
+                        </p>
+                        <hr>
+                      </div>
+                    
+
+                  </li>
+                  
+                  <hr>
+                  
+                </ul>
+               <script src="./script.js"></script>
+
+
+            </div>
+          </section>
+     
+
+
+        <footer class="footer-container">
+      
+        </footer>
+
+    
+       
+</body>
+
+</html>
